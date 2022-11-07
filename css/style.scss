@@ -305,3 +305,90 @@
     display: none;
   }
 }
+
+//ПЕРВАЯ СЕКЦИЯ
+
+.first-section{
+  background: url('../img/family-bg.jpg');
+}
+
+.first-section_container{}
+
+.first-section_container__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-section__wrapper-left{
+  flex: 0 1 50%;
+}
+
+.first-section_iner{}
+
+.first-section_iner-text{
+  display: flex;
+  p{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2A63A9;
+  }
+}
+
+.first-section_iner-text__img{}
+
+.first-section_iner-title{
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: #272727;
+
+  span{
+    color: #2A63A9;
+  }
+}
+
+.first-section_iner-btn{
+  button{
+    padding: 18px 40px;
+    background: linear-gradient(180deg, #2A63A9 0%, #86C4FF 0.01%, #2A63A9 6.77%, #00C2FF 84.37%, #40D1FF 100%);
+    box-shadow: 0px 5px 10px #04B8F7;
+    border-radius: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+  }
+}
+
+.first-section_iner-btn_text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #272727;
+  opacity: 0.5;
+}
+
+.first-section_content{
+  display: flex;
+}
+
+.first-section_content-colum{}
+
+.first-section_content__blok{}
+
+.first-section_content__blok-img{}
+
+.first-section_content__blok-text{}
+
+.first-section__wrapper-right{}
+
